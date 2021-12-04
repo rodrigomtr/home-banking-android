@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_auths"
+            android:icon="@drawable/ic_action_lock_open"
+            android:title="@string/authorizations" />
+        <item
+            android:id="@+id/nav_consults"
+            android:icon="@drawable/ic_playlist_add_check"
+            android:title="@string/consults" />
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/ic_payment"
+            android:title="@string/payments" />
+        <item
+            android:id="@+id/nav_transfer"
+            android:icon="@drawable/ic_swap_horiz"
+            android:title="@string/transfers" />
+    </group>
+
+    <item android:title="@string/communication">
+        <menu>
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/ic_phone_grey"
+                android:title="@string/contacts" />
+            <item
+                android:id="@+id/nav_agencie_map"
+                android:icon="@drawable/ic_action_location"
+                android:title="@string/agencies_map" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_action_signout"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>

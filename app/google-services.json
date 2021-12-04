@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "618378346168",
+    "firebase_url": "https://accenturehomebanking.firebaseio.com",
+    "project_id": "accenturehomebanking",
+    "storage_bucket": "accenturehomebanking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618378346168:android:8b34d65eee5f7b52",
+        "android_client_info": {
+          "package_name": "com.example.rodrigobrodrigues.accentureHomeBanking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618378346168-f0b208lom370g7cepd11rv0orlg6vjc5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "618378346168-1rlcn3i0a6pot1hb5uvnbhf78m1284tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCllY88mfvTZNcwXkC49CDJJBKTdxZK5d0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

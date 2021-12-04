@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e88e5</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#1e88e5</color>
+    <color name="colorOrange">#ff9830</color>
+    <color name="error">#F4511E</color>
+    <color name="selected">#eaebed</color>
+    <color name="offline_background">#1976d2</color>
+    <color name="disabled">#B0000000</color>
+</resources>

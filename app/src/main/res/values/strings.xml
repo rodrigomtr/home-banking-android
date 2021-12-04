@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">HomeBanking</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="contract_number">Contract number</string>
+    <string name="access_code">Access code</string>
+    <string name="authorizations">Authorizations</string>
+    <string name="consults">Consults</string>
+    <string name="payments">Payments</string>
+    <string name="transfers">Transfers</string>
+    <string name="agencies_map">Agencies</string>
+    <string name="contacts">Contacts</string>
+    <string name="sign_out">Sign out</string>
+    <string name="title_activity_payments">Payments</string>
+    <string name="title_activity_serv_payment">Service Payments</string>
+    <string name="how_to_join">How to join</string>
+    <string name="btn_login">Sign in</string>
+    <string name="title_activity_imp_payment">State Payments</string>
+    <string name="title_activity_sspayment">Social Security Payments</string>
+    <string name="error_auth">Incorrect access code or contract number, try again.</string>
+    <string name="error_acces">Server is down. Try again later.</string>
+    <string name="no_internet">Internet connection is required.</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="error_invalid_account">This field is required!</string>
+    <string name="title_activity_qrpayment">QR Payment</string>
+    <string name="error_invalid_qr">Invalid QR code.</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string-array name="period_array">
+        <item>Single</item>
+        <item>Weekly</item>
+        <item>Biweekly</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Semiannual</item>
+        <item>Annual</item>
+    </string-array>
+
+    <string-array name="Tele_array">
+        <item>Vodafone</item>
+        <item>MEO</item>
+        <item>NOS</item>
+    </string-array>
+
+    <string-array name="internet_array">
+        <item>NETPAC</item>
+        <item>SAPO-ADSL</item>
+        <item>KANGURU</item>
+    </string-array>
+
+    <string-array name="transp_array">
+        <item>ViaCard</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+
+    <string-array name="payment_type_array">
+        <item>In employment</item>
+        <item>Self-employed</item>
+        <item>Voluntary social assurance</item>
+    </string-array>
+
+    <string-array name="remun_type_array">
+        <item>Full month</item>
+        <item>Incomplete Month</item>
+        <item>Hourly</item>
+    </string-array>
+
+    <string name="payment_continue">Continue</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_title">Confirm data</string>
+    <string name="entity">Entity:</string>
+    <string name="ref">Reference:</string>
+    <string name="amount">Amount:</string>
+    <string name="period">Frequency:</string>
+    <string name="payment_date">Payment date:</string>
+    <string name="auth">Authentication</string>
+    <string name="fingerprint_description">Confirm finger print to continue</string>
+    <string name="description_fingerprint_icon">Touch sensor</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="error_payment_fields">Invalid payment data. Please verify bill data</string>
+    <string name="error_fingerprint">Fingerprint not recognized.\nTry again.</string>
+    <string name="use_password">Use matrix</string>
+    <string name="matrix_success">Success</string>
+    <string name="matrix_error">Password is incorrect. \nTry again.</string>
+    <string name="debit_account">Account to debit:</string>
+    <string name="payment_error">The payment was not accomplished \nTry again later.</string>
+    <string name="payment_success">Payment succeeded</string>
+    <string name="error_entity">Invalid entity</string>
+    <string name="error_ref">Invalid reference</string>
+    <string name="error_amount">Amount is required</string>
+    <string name="account">Account:</string>
+    <string name="pay">Pay</string>
+    <string name="matrix_required">An authenticated matrix is needed to do this operation</string>
+    <string name="invalid_operation">Invalid operation</string>
+    <string name="create_matrix">Create matrix</string>
+    <string name="created_matrix">Matrix created</string>
+    <string name="error_blocked_account">This account is blocked. \nContact the support line.</string>
+    <string name="predefined_service">Pre-defined service</string>
+    <string name="internet">Internet</string>
+    <string name="telecom">Telecommunications</string>
+    <string name="transp">Transports</string>
+    <string name="title_activity_text_recognizer">Bill recognizer</string>
+    <string name="permission_camera_rationale">Camera access is required for detection</string>
+    <string name="no_camera_permission">Camera permission denied.</string>
+    <string name="low_storage_error">Error! Low storage</string>
+    <string name="point_to_bill">Aim to your bill</string>
+    <string name="balance">Balance:&#160;</string>
+    <string name="days_number">Number of days</string>
+    <string name="hours_number">Number of hours</string>
+    <string name="description_logo">logo</string>
+    <string name="description_qr_aim">QR Code aim</string>
+    <string name="description_bill_aim">bill aim</string>
+    <string name="description_login_background">login background</string>
+    <string name="btn_serv_payment">Service \nPayments</string>
+    <string name="btn_qrpayment">QR \nPayments</string>
+    <string name="btn_imp_payment">State \nPayments</string>
+    <string name="title_activity_freq_payments">Frequent Payments</string>
+    <string name="error_no_freq_payments">You don\'t have frequent payments on this account</string>
+    <string name="title_activity_payment_proving">Payment Prove</string>
+    <string name="btn_download">Download proving</string>
+    <string name="send_email_proving">Send proving by email</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="payment_prove_file">Prove.pdf</string>
+    <string name="email">Email</string>
+    <string name="dest_name">Receiver name (Optional)</string>
+    <string name="email_description">Description (Optional)</string>
+    <string name="payment_data">Payment data</string>
+    <string name="field_required">Field required</string>
+    <string name="digit_number_error">Enter a 11-digit number</string>
+    <string name="remember_me">Remember me</string>
+    <string name="title_scheduled_payments">Scheduled Payments</string>
+    <string name="title_activity_scheduled_payments">Scheduled Payments</string>
+    <string name="next_payment">Next payment:</string>
+    <string name="error_no_sched_payments">You don\'t have scheduled payments</string>
+    <string name="action_delete">delete</string>
+    <string name="ss_entity">Entity: \nSocial Security</string>
+    <string name="payment_type">Payment type:</string>
+    <string name="remun_type">Remuneration type:</string>
+    <string name="ss_number">Social security number:</string>
+    <string name="back_to_home_message">Do you really want to exit?</string>
+    <string name="back_to_home_title">Exit to home page?</string>
+    <string name="sign_out_message">Are you sure you want to sign out?</string>
+    <string name="sign_out_title">Sign out?</string>
+    <string name="communication">Communication</string>
+    <string name="account_to_debit">Account to debit</string>
+    <string name="detector">Detector</string>
+    <string name="frequents">Frequents</string>
+    <string name="operation_date">Operation date:</string>
+    <string name="periodicity">Periodicity:</string>
+    <string name="service">Service</string>
+    <string name="benef_number">Beneficiary number:</string>
+    <string name="mensal_remun">Monthly remuneration:</string>
+    <string name="auto_calculated_value">[Auto calculated value]</string>
+    <string name="payment_period">Payment period:</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="agencies">Agencies</string>
+    <string name="error_try_again">Try again later.</string>
+    <string name="error_title">Error!</string>
+    <string name="error_matrix_create_subtitle"> Could not create the matrix.</string>
+    <string name="error_delete_scheduled_subtitle">Could not delete this payement.</string>
+    <string name="success_email_sent_title">Email sent</string>
+    <string name="success_email_sent_body">The proving was sent successfuly.</string>
+    <string name="failure_email_sent_body">The sending failed. \nTry again.</string>
+    <string name="verify_email">Please verify your email.</string>
+    <string name="st">st&#160;</string>
+    <string name="nd">nd&#160;</string>
+    <string name="rd">rd&#160;</string>
+    <string name="th">th&#160;</string>
+    <string name="date_connect_2">&#160;</string>
+    <string name="account_choose">Select an account</string>
+</resources>

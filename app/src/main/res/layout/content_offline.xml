@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".offline.OfflineActivity"
+    tools:ignore="Overdraw">
+
+    <com.gigamole.library.PulseView
+        android:id="@+id/pulseView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:pv_alpha="70"
+        app:pv_color="@color/offline_background"
+        app:pv_icon="@drawable/ic_wifi"
+        app:pv_icon_height="100dp"
+        app:pv_icon_width="100dp"
+        app:pv_measure="height"
+        app:pv_spawn_period="500"
+        app:pv_interpolator="@android:anim/linear_interpolator"
+        />
+
+    <TextView
+        android:id="@+id/no_internet_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/offline_background"
+        android:text="@string/no_internet"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
